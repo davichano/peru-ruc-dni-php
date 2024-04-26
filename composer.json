@@ -1,0 +1,34 @@
+{
+  "name": "davichano/peru-ruc-dni-php",
+  "description": "Consulta gratuita de DNI, RUC en Perú",
+  "keywords": [
+    "sunat",
+    "reniec",
+    "dni",
+    "ruc",
+    "consulta-dni",
+    "consulta-ruc",
+    "peru"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "David Paredes",
+      "email": "davichano1@gmail.com"
+    }
+  ],
+  "homepage": "https://github.com/davichano/peru-ruc-dni-php",
+  "type": "library",
+  "require": {
+    "php": ">=7.1",
+    "ext-gd": "*",
+    "ext-curl": "*",
+    "ext-json": "*",
+    "ext-simplexml": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Davichano\\": "src/Davichano/"
+    }
+  }
+}
