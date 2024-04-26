@@ -24,7 +24,7 @@ Consulta de DNI.
 ### Ejemplo
 
 ```php
-use Davichano\DNI;
+use Davichano\DNI\Person;
 
 require 'vendor/autoload.php';
 
